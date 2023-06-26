@@ -61,18 +61,12 @@ header{
 
 nav.header-right{
     @include flex(row,center,center);
-
     .element-nav{
         padding: 1rem;
     }
-
-    
-
     h3{
         display: inline;
     }
-    
-    
 }
 
 </style>
