@@ -7,7 +7,7 @@ export default{
 </script>
 
 <template>
-    <section>
+    <section class="jumbotrone">
         <h1>Learn At Your Own Pace!</h1>
         <p>Get teamed up with people of the same will.</p>
         <button>Get started for free</button>
@@ -15,21 +15,45 @@ export default{
             <img src="../assets/img/home-6-hero-left-person.png" alt="person">
             <img src="../assets/img/home-6-hero-right-person.png" alt="person" id="person-right">
             <div class="box-video">
-            
+                <img src="../assets/img/home-6-hero-poster-final.jpg" alt="screen">
             </div>
         </div>
     </section>
+    <section>
+        <p>aaaaaaaaaa</p>
+        <span>aaa</span>
+        <span>aaa</span>
+        <div class="numbers">
+            <div>
+                <p>1000</p>
+                <span>aaaaaa</span>
+            </div>
+            <div>
+                <p>1000</p>
+                <span>aaaaaa</span>
+            </div>
+            <div>
+                <p>1000</p>
+                <span>aaaaaa</span>
+            </div>
+            <div>
+                <p>1000</p>
+                <span>aaaaaa</span>
+            </div>
+        </div>
+
+    </section >
 
 </template>
 
 <style lang="scss" scoped>
 @use "../styles/partials/mixins.scss" as *;
 
-section{
+section.jumbotrone{
     text-align: center;
     background-color: blue;
+    margin-bottom: 180px
 }
-
 div.container{
     @include flex(row,space-between,center);
     position: relative;
@@ -56,7 +80,24 @@ div.box-video{
     left: 50%; top:50%;
     transform: translate(-50%,-50%);
     background-color: white;
+    padding: 1rem;
+
+    img{
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+    }
 }
+
+section{
+    text-align: center
+}
+
+div.numbers{
+    @include flex(row,space-evenly,center);
+}
+
 
 
 </style>
