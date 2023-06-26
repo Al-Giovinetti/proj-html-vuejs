@@ -1,13 +1,20 @@
 <script>
+import MainJumbotrone from "./MainJumbotrone.vue"
 
 export default{
     name:"AppMain",
+
+    components:{
+        MainJumbotrone,
+    }
 }
 
 </script>
 
 <template>
-    <h1>corpo</h1>
+<main>
+    <MainJumbotrone />
+</main>
 
 </template>
 
