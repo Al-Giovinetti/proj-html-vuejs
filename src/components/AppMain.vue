@@ -1,11 +1,13 @@
 <script>
-import MainJumbotrone from "./MainJumbotrone.vue"
+import MainJumbotrone from "./MainChild/MainJumbotrone.vue"
+import ServiceProvide from "./MainChild/ServiceProvide.vue"
 
 export default{
     name:"AppMain",
 
     components:{
         MainJumbotrone,
+        ServiceProvide,
     }
 }
 
@@ -14,6 +16,7 @@ export default{
 <template>
 <main>
     <MainJumbotrone />
+    <ServiceProvide />
 </main>
 
 </template>

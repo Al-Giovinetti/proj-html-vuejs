@@ -12,10 +12,10 @@ export default{
         <p>Get teamed up with people of the same will.</p>
         <button>Get started for free</button>
         <div class="container">
-            <img src="../assets/img/home-6-hero-left-person.png" alt="person">
-            <img src="../assets/img/home-6-hero-right-person.png" alt="person" id="person-right">
+            <img src="../../assets/img/home-6-hero-left-person.png" alt="person">
+            <img src="../../assets/img/home-6-hero-right-person.png" alt="person" id="person-right">
             <div class="box-video">
-                <img src="../assets/img/home-6-hero-poster-final.jpg" alt="screen">
+                <img src="../../assets/img/home-6-hero-poster-final.jpg" alt="screen">
             </div>
         </div>
     </section>
@@ -47,7 +47,7 @@ export default{
 </template>
 
 <style lang="scss" scoped>
-@use "../styles/partials/mixins.scss" as *;
+@use "../../styles/partials/mixins.scss" as *;
 
 section.jumbotrone{
     text-align: center;
@@ -93,7 +93,6 @@ div.box-video{
 section{
     text-align: center
 }
-
 div.numbers{
     @include flex(row,space-evenly,center);
 }

@@ -7,7 +7,6 @@ export default{
 </script>
 
 <template>
-    <h1>fine</h1>
 
 </template>
 
