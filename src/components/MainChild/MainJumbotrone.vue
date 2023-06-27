@@ -48,10 +48,11 @@ export default{
 
 <style lang="scss" scoped>
 @use "../../styles/partials/mixins.scss" as *;
+@use "../../styles/partials/variables.scss" as*;
 
 section.jumbotrone{
     text-align: center;
-    background-color: blue;
+    background-color:$bg-primary;
     margin-bottom: 180px
 }
 div.container{

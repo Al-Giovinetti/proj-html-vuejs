@@ -53,10 +53,12 @@ export default{
 
 <style lang="scss" scoped>
 @use "../styles/partials/mixins.scss" as *;
+@use "../styles/partials/variables.scss" as*;
 
 header{
     @include flex(row,space-between,center);
-    padding: 0 3.5rem
+    padding: 0 3.5rem;
+    background-color: $bg-primary
 }
 
 nav.header-right{
