@@ -4,6 +4,7 @@ import ServiceProvide from "./SectionComponents/ServiceProvide.vue"
 import CoursesList from "./SectionComponents/CoursesList.vue"
 import TalkAbout from "./SectionComponents/TalkAbout.vue"
 import OursNews from "./SectionComponents/OursNews.vue"
+import HelpLearn from "./SectionComponents/HelpLearn.vue"
 
 export default{
     name:"AppMain",
@@ -13,7 +14,8 @@ export default{
         ServiceProvide,
         CoursesList,
         TalkAbout,
-        OursNews
+        OursNews,
+        HelpLearn
     }
 }
 
@@ -26,6 +28,8 @@ export default{
     <CoursesList />
     <TalkAbout />
     <OursNews />
+    <HelpLearn />
+
 </main>
 
 </template>
