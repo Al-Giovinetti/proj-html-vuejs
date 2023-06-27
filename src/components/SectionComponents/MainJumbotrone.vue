@@ -20,7 +20,7 @@ export default{
             </div>
         </div>
     </section>
-    <section>
+    <section class="sec-bottom">
         <div class="founder">
             <p>Let passion and determination be the guide along the way and develop at your own pace that's confortable </p>
             <span>FANNI MORENO</span>
@@ -67,7 +67,6 @@ h1{
 section.jumbotrone{
     text-align: center;
     background-color:$bg-page-top;
-    margin-bottom: 180px
 }
 div.container{
     @include flex(row,space-between,center);
@@ -110,6 +109,12 @@ div.box-video{
         height: 70px;
     }
 }
+
+.sec-bottom{
+    background-color: rgb(239, 239, 239);
+    padding-top: 180px;
+}
+
 div.founder{
     margin: auto;
     width: 50%;

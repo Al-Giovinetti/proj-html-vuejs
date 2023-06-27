@@ -29,10 +29,6 @@ button{
 
 section{
     border-bottom: 3px solid orangered;
-
-    &:not(div.container){
-        text-align: center;
-    }
 }
 
 .color-white{
