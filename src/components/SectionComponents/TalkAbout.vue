@@ -35,8 +35,6 @@ export default{
 </template>
 
 <style lang="scss" scoped>
-section{
-    text-align: center;
-}
+
 
 </style>

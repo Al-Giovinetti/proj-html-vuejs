@@ -14,4 +14,8 @@ li{
 
 section{
     border-bottom: 3px solid orangered;
+
+    &:not(div.container){
+        text-align: center;
+    }
 }

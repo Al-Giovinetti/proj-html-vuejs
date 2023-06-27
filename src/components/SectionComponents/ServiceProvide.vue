@@ -60,7 +60,6 @@ export default{
 
 section{
     @include flex(row,center,start);
-    text-align: center;
     padding: 0 2rem;
 }
 

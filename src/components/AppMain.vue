@@ -3,6 +3,7 @@ import MainJumbotrone from "./SectionComponents/MainJumbotrone.vue"
 import ServiceProvide from "./SectionComponents/ServiceProvide.vue"
 import CoursesList from "./SectionComponents/CoursesList.vue"
 import TalkAbout from "./SectionComponents/TalkAbout.vue"
+import OursNews from "./SectionComponents/OursNews.vue"
 
 export default{
     name:"AppMain",
@@ -12,6 +13,7 @@ export default{
         ServiceProvide,
         CoursesList,
         TalkAbout,
+        OursNews
     }
 }
 
@@ -23,6 +25,7 @@ export default{
     <ServiceProvide />
     <CoursesList />
     <TalkAbout />
+    <OursNews />
 </main>
 
 </template>
