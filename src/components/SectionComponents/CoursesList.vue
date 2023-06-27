@@ -1,5 +1,5 @@
 <script>
-import SingleCourse from "./SingleCourse.vue"
+import SingleCourse from "../CardComponents/SingleCourse.vue"
 
 export default{
     name:"CoursesList",

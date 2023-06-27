@@ -1,7 +1,8 @@
 <script>
-import MainJumbotrone from "./MainChild/MainJumbotrone.vue"
-import ServiceProvide from "./MainChild/ServiceProvide.vue"
-import CoursesList from "./MainChild/CoursesList.vue"
+import MainJumbotrone from "./SectionComponents/MainJumbotrone.vue"
+import ServiceProvide from "./SectionComponents/ServiceProvide.vue"
+import CoursesList from "./SectionComponents/CoursesList.vue"
+import TalkAbout from "./SectionComponents/TalkAbout.vue"
 
 export default{
     name:"AppMain",
@@ -9,7 +10,8 @@ export default{
     components:{
         MainJumbotrone,
         ServiceProvide,
-       CoursesList,
+        CoursesList,
+        TalkAbout,
     }
 }
 
@@ -20,6 +22,7 @@ export default{
     <MainJumbotrone />
     <ServiceProvide />
     <CoursesList />
+    <TalkAbout />
 </main>
 
 </template>
