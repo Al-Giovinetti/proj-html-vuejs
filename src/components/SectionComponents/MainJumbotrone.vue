@@ -21,25 +21,27 @@ export default{
         </div>
     </section>
     <section>
-        <p>aaaaaaaaaa</p>
-        <span>aaa</span>
-        <span>aaa</span>
+        <div class="founder">
+            <p>Let passion and determination be the guide along the way and develop at your own pace that's confortable </p>
+            <span>FANNI MORENO</span>
+            <span class="color-grey d-block">/Founder e CEO</span>
+        </div>
         <div class="numbers">
             <div>
-                <p>1000</p>
-                <span>aaaaaa</span>
+                <p>1926</p>
+                <span class="color-grey">FINISHED SESSIONS</span>
             </div>
             <div>
-                <p>1000</p>
-                <span>aaaaaa</span>
+                <p>3.092+</p>
+                <span class="color-grey">ENROLLED LEARNERS</span>
             </div>
             <div>
-                <p>1000</p>
-                <span>aaaaaa</span>
+                <p>200</p>
+                <span class="color-grey">ONLINE INSTRUCTORS</span>
             </div>
             <div>
-                <p>1000</p>
-                <span>aaaaaa</span>
+                <p>100%</p>
+                <span class="color-grey">SATISFACTION RATE</span>
             </div>
         </div>
 
@@ -57,14 +59,11 @@ h1{
     padding-bottom: 1rem;
 }
 
-
-
 #started-free{
     position: relative;
     top: 30px;
     background-color: $in-hover;
 }
-
 section.jumbotrone{
     text-align: center;
     background-color:$bg-page-top;
@@ -111,9 +110,40 @@ div.box-video{
         height: 70px;
     }
 }
+div.founder{
+    margin: auto;
+    width: 50%;
+
+    p{
+        padding-top: 50px;
+        font-size: 2rem;
+        font-weight: bold;
+        line-height: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    span:not(.d-block){
+        font-weight: bolder;
+    }
+
+    span.d-block{
+    padding: 1rem 0 2rem
+}
+}
 
 div.numbers{
     @include flex(row,space-evenly,center);
+    padding-bottom: 3rem;
+
+    p{
+        color:$in-hover;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    span{
+        font-weight: bold
+    };
 }
 
 
