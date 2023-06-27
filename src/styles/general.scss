@@ -17,6 +17,12 @@ li{
     list-style-type: none;
 }
 
+button{
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: 0;
+}
+
 section{
     border-bottom: 3px solid orangered;
 
@@ -24,3 +30,12 @@ section{
         text-align: center;
     }
 }
+
+.color-white{
+    color: white;
+}
+
+.color-grey{
+    color:#696969
+}
+
