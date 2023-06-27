@@ -55,8 +55,8 @@ export default{
 
 header{
     @include flex(row,space-between,center);
-    padding: 1.7rem 5rem;
-    background-color: $bg-primary;
+    padding: 1.7rem 4rem;
+    background-color: $bg-page-top;
     color: white;
 }
 

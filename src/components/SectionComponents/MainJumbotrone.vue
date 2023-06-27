@@ -52,7 +52,7 @@ export default{
 
 section.jumbotrone{
     text-align: center;
-    background-color:$bg-primary;
+    background-color:$bg-page-top;
     margin-bottom: 180px
 }
 div.container{
