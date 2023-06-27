@@ -13,38 +13,36 @@ export default{
 <template>
 <header>
     <div class="header-left">
-        <img src="" alt="MaxCoach logo">
+        <img src="../assets/img/light-logo.png" alt="MaxCoach logo">
     </div>
     <nav class="header-right">
         <div class="element-nav">
-            <h3>home</h3>
+            <h4>Home</h4>
             <i class="fa-solid fa-angle-down"></i>
         </div>
         <div class="element-nav">
-            <h3>home</h3>
+            <h4>Pages</h4>
             <i class="fa-solid fa-angle-down"></i>
         </div>
         <div class="element-nav">
-            <h3>home</h3>
+            <h4>Courses</h4>
             <i class="fa-solid fa-angle-down"></i>
         </div>
         <div class="element-nav">
-            <h3>home</h3>
+            <h4>Features</h4>
             <i class="fa-solid fa-angle-down"></i>
         </div>
         <div class="element-nav">
-            <h3>home</h3>
+            <h4>Blog</h4>
             <i class="fa-solid fa-angle-down"></i>
         </div>
         <div class="element-nav">
-            <h3>home</h3>
+            <h4>Shop</h4>
             <i class="fa-solid fa-angle-down"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
         </div>
         <div class="element-nav">
-            <span>carrello</span>
-        </div>
-        <div class="element-nav">
-            <span>user</span>
+            <i class="fa-regular fa-circle-user"></i>
         </div>
         <HeaderSearchbar />
     </nav>
@@ -57,18 +55,34 @@ export default{
 
 header{
     @include flex(row,space-between,center);
-    padding: 0 3.5rem;
-    background-color: $bg-primary
+    padding: 1.7rem 5rem;
+    background-color: $bg-primary;
+    color: white;
+}
+
+.header-left img{
+    width: 150px;
 }
 
 nav.header-right{
     @include flex(row,center,center);
     .element-nav{
-        padding: 1rem;
+        padding: 0 0.9rem;
     }
-    h3{
+    h4{
         display: inline;
     }
 }
+
+i.fa-angle-down{
+    font-size: small;
+    padding: 0 0.5rem;
+}
+
+i.fa-cart-shopping,
+i.fa-circle-user{
+    font-size: 1.3rem;
+}
+
 
 </style>
