@@ -74,7 +74,7 @@ export default{
 section{
     @include flex(row,center,start);
     padding: 0 2rem;
-    background-color: rgb(239, 239, 239);
+    background-color:whitesmoke;
     text-align: left;
 }
 

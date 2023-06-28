@@ -44,6 +44,10 @@ export default{
 @use "../../styles/partials/mixins.scss" as * ;
 @use "../../styles/partials/variables.scss" as*;
 
+section{
+    background-color: whitesmoke;
+}
+
 
 section:not(div.container){
     text-align: center;

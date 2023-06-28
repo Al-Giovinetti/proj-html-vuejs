@@ -111,8 +111,9 @@ div.box-video{
 }
 
 .sec-bottom{
-    background-color: rgb(239, 239, 239);
+    background-color: whitesmoke;
     padding-top: 180px;
+    text-align: center;
 }
 
 div.founder{

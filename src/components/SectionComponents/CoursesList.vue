@@ -81,7 +81,7 @@ export default{
 
 section:not(div.container){
     text-align: center;
-    background-color: rgb(239, 239, 239);
+    background-color: rgb(226, 226, 226);
     padding-top: 3rem;
 
     h2{

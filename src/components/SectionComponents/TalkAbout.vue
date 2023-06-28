@@ -53,6 +53,10 @@ export default{
 <style lang="scss" scoped>
 @use "../../styles/partials/variables.scss" as*;
 
+section{
+    background-color: whitesmoke;
+}
+
 
 h2{
     text-align: center;

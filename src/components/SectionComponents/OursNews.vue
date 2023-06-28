@@ -56,6 +56,10 @@ export default{
 <style lang="scss" scoped>
 @use "../../styles/partials/mixins.scss" as*;
 @use "../../styles/partials/variables.scss" as*;
+section{
+    background-color: rgb(226, 226, 226);
+}
+
 section>*:not(div.container){
     text-align: center;
     padding-top: 3rem
