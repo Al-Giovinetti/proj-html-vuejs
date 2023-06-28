@@ -15,8 +15,10 @@ export default{
             <img src="../../assets/img/home-6-hero-left-person.png" alt="person">
             <img src="../../assets/img/home-6-hero-right-person.png" alt="person" id="person-right">
             <div class="box-video">
-                <img src="../../assets/img/home-6-hero-poster-final.jpg" alt="page whit grafic">
-                <img src="../../assets/img/icon-youtube-play.png" alt="youtube logo">
+                <div class="cornice">
+                    <img src="../../assets/img/home-6-hero-poster-final.jpg" alt="page whit grafic">
+                    <img src="../../assets/img/icon-youtube-play.png" alt="youtube logo">
+                </div>
             </div>
         </div>
     </section>
@@ -92,14 +94,17 @@ div.box-video{
     left: 50%; top:50%;
     transform: translate(-50%,-50%);
     background-color: white;
-    overflow:hidden;
+
+    div.cornice{
+            margin :1rem;
+            overflow: hidden;
+    }
 
     img:first-child{
         width: 100%;
         height: 100%;
         display: block;
         object-fit: contain;
-        padding: 1rem;
         transition: all 2s;
 
         &:hover{
