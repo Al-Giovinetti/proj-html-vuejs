@@ -92,13 +92,19 @@ div.box-video{
     left: 50%; top:50%;
     transform: translate(-50%,-50%);
     background-color: white;
-    padding: 1rem;
+    overflow:hidden;
 
     img:first-child{
         width: 100%;
         height: 100%;
         display: block;
-        object-fit: cover;
+        object-fit: contain;
+        padding: 1rem;
+        transition: all 2s;
+
+        &:hover{
+            transform: scale(1.2);
+        }
     }
 
     img:nth-child(2){
