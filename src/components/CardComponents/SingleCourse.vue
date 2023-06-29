@@ -16,7 +16,6 @@ export default{
             return new URL (`http://localhost:5173/src/assets/img/${img}`)
         }
     }
-
 }
 
 </script>

@@ -19,27 +19,33 @@ export default{
         <div class="element-nav">
             <h4>Home</h4>
             <i class="fa-solid fa-angle-down"></i>
+            <div class="border-hover"></div>
         </div>
         <div class="element-nav">
             <h4>Pages</h4>
             <i class="fa-solid fa-angle-down"></i>
+            <div class="border-hover"></div>
         </div>
         <div class="element-nav">
             <h4>Courses</h4>
             <i class="fa-solid fa-angle-down"></i>
+            <div class="border-hover"></div>
         </div>
         <div class="element-nav">
             <h4>Features</h4>
             <i class="fa-solid fa-angle-down"></i>
+            <div class="border-hover"></div>
         </div>
         <div class="element-nav">
             <h4>Blog</h4>
             <i class="fa-solid fa-angle-down"></i>
+            <div class="border-hover"></div>
         </div>
         <div class="element-nav">
             <h4>Shop</h4>
             <i class="fa-solid fa-angle-down"></i>
             <i class="fa-solid fa-cart-shopping"></i>
+            <div class="border-hover"></div>
         </div>
         <div class="element-nav">
             <i class="fa-regular fa-circle-user"></i>
@@ -68,12 +74,23 @@ nav.header-right{
     @include flex(row,center,center);
     .element-nav{
         padding: 0 0.9rem;
+
+        &:hover .border-hover{
+            width: 100%;
+            
+        }
     }
     h4{
         display: inline;
     }
+    .border-hover{
+        height: 3px;
+        width: 0;
+        margin-top:3px;
+        background-color: white;
+        transition: all 3s;
+    }
 }
-
 i.fa-angle-down{
     font-size: small;
     padding: 0 0.5rem;
