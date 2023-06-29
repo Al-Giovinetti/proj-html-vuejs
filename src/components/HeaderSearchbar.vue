@@ -18,6 +18,7 @@ export default{
 <style lang="scss" scoped>
    
     input{
+        outline: none;
         border: 0 solid white;
         border-radius: 10px 0 0 10px;
         padding: 1rem;
